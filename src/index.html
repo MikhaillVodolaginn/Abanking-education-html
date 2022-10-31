@@ -11,20 +11,18 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="navigation">
-            <ul class="navigation__list">
-                <li class="navigation__item">
-                    <a class="navigation__link" href="#">Works</a>
-                </li>
-                <li class="navigation__item">
-                    <a class="navigation__link" href="#">Blog</a>
-                </li>
-                <li class="navigation__item">
-                    <a class="navigation__link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
+    <header class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item">
+                <a class="navigation__link" href="#">Works</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#">Blog</a>
+            </li>
+            <li class="navigation__item">
+                <a class="navigation__link" href="#">Contact</a>
+            </li>
+        </ul>
     </header>
     <main>
         <section class="about-me">
@@ -37,9 +35,11 @@
                         Exercitation veniam consequat sunt nostrud amet.
                     </p>
                 </div>
-                <div class="about-me__button">
-                    <a class="about-me__download" href="#">Download Resume</a>
-                </div>
+                <a href="#">
+                    <div class="about-me__button">
+                        <p class="about-me__download">Download Resume</p>
+                    </div>
+                </a>
             </div>
         </section>
         <section class="posts">
@@ -47,91 +47,98 @@
                 <div class="posts__title">
                     <h2 class="posts__title__text">Recent posts</h2>
                 </div>
-                <div class="posts__view">
-                    <a class="posts__view__text" href="#">View all</a>
-                </div>
+                <a href="#">
+                    <div class="posts__view">
+                        <p class="posts__view__text">View all</p>
+                    </div>
+                </a>
             </div>
-            <div>
-                <ul class="posts__list">
-                    <li class="posts__link">
-                            <h3 class="posts__link__title">Making a design system from scratch</h3>
-                            <p class="posts__link__subtitle">Design, Pattern</p>
-                            <p class="posts__link__description">
-                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                                Velit officia consequat duis enim velit mollit.
-                                Exercitation veniam consequat sunt nostrud amet.
-                            </p>
-                    </li>
-                    <li class="posts__link">
-                            <h3 class="posts__link__title">Creating pixel perfect icons in Figma</h3>
-                            <p class="posts__link__subtitle">Figma, Icon Design</p>
-                            <p class="posts__link__description">
-                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                                Velit officia consequat duis enim velit mollit.
-                                Exercitation veniam consequat sunt nostrud amet.
-                            </p>
-                    </li>
-                </ul>
-            </div>
+            <ul class="posts__list">
+                <li class="posts__link">
+                    <h3 class="posts__link__title1">Making a design system from scratch</h3>
+                    <p class="posts__link__subtitle1">Design, Pattern</p>
+                    <p class="posts__link__description1">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                        Velit officia consequat duis enim velit mollit.
+                        Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                </li>
+                <li class="posts__link">
+                    <h3 class="posts__link__title2">Creating pixel perfect icons in Figma</h3>
+                    <p class="posts__link__subtitle2">Figma, Icon Design</p>
+                    <p class="posts__link__description2">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                        Velit officia consequat duis enim velit mollit.
+                        Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                </li>
+            </ul>
         </section>
-        <section>
-            <h2>Featured works</h2>
-            <ul>
-                <li>
-                    <a href="#">
-                        <h3>Designing Dashboards</h3>
-                        <div>2020</div>
-                        <div>Dashboard</div>
-                        <p>
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                            Velit officia consequat duis enim velit mollit.
-                            Exercitation veniam consequat sunt nostrud amet.
-                        </p>
-                    </a>
+        <section class="works">
+            <div>
+                <h2 class="works__title">Featured works</h2>
+            </div>
+            <ul class="works__list">
+                <li class="works__link">
+                    <div class="works__img">
+                        <img src="./images/DesigningDashboards.png" alt="DesigningDashboards">
+                    </div>
+                    <h3>Designing Dashboards</h3>
+                    <div>2020</div>
+                    <div>Dashboard</div>
+                    <p>
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                        Velit officia consequat duis enim velit mollit.
+                        Exercitation veniam consequat sunt nostrud amet.
+                    </p>
                 </li>
-                <li>
-                    <a href="#">
-                        <h3>Vibrant Portraits of 2020</h3>
-                        <div>2018</div>
-                        <div>Illustration</div>
-                        <p>
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                            Velit officia consequat duis enim velit mollit.
-                            Exercitation veniam consequat sunt nostrud amet.
-                        </p>
-                    </a>
+                <li class="works__link">
+                    <div class="works__img">
+                        <img src="./images/VibrantPortraits.png" alt="VibrantPortraits">
+                    </div>
+                    <h3>Vibrant Portraits of 2020</h3>
+                    <div>2018</div>
+                    <div>Illustration</div>
+                    <p>
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                        Velit officia consequat duis enim velit mollit.
+                        Exercitation veniam consequat sunt nostrud amet.
+                    </p>
                 </li>
-                <li>
-                    <a href="#">
-                        <h3>36 Days of Malayalam type</h3>
-                        <div>2018</div>
-                        <div>Typography</div>
-                        <p>
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                            Velit officia consequat duis enim velit mollit.
-                            Exercitation veniam consequat sunt nostrud amet.
-                        </p>
-                    </a>
+                <li class="works__link">
+                    <div class="works__img">
+                        <img src="./images/36Days.png" alt="36Days">
+                    </div>
+                    <h3>36 Days of Malayalam type</h3>
+                    <div>2018</div>
+                    <div>Typography</div>
+                    <p>
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                        Velit officia consequat duis enim velit mollit.
+                        Exercitation veniam consequat sunt nostrud amet.
+                    </p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
-        <ul>
-            <li>
-                <a href="#">Facebook</a>
-            </li>
-            <li>
-                <a href="#">Instagram</a>
-            </li>
-            <li>
-                <a href="#">Twitter</a>
-            </li>
-            <li>
-                <a href="#">Linkedin</a>
-            </li>
-        </ul>
-        <p>Copyright ©2020 All rights reserved </p>
+    <footer class="footer">
+        <div>
+            <ul class="footer__list">
+                <li class="footer__link">
+                    <a href="#">Facebook</a>
+                </li>
+                <li class="footer__link">
+                    <a href="#">Instagram</a>
+                </li>
+                <li class="footer__link">
+                    <a href="#">Twitter</a>
+                </li>
+                <li class="footer__link">
+                    <a href="#">Linkedin</a>
+                </li>
+            </ul>
+        </div>
+        <p class="footer__copyright">Copyright ©2020 All rights reserved </p>
     </footer>
 </body>
 

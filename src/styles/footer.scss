@@ -1,0 +1,17 @@
+.footer {
+  height: 182px;
+  position: relative;
+  top: 134px;
+
+  &__list {
+    margin-top: 51px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+  }
+
+  &__copyright {
+    margin-top: 26px;
+    text-align: center;
+  }
+}
