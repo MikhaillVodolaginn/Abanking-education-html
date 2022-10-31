@@ -1,23 +1,59 @@
-.about-me{
-  &__greetings{
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 60px;
+.about-me {
+  height: 525px;
+
+  &__container {
+    position: relative;
+    width: 760px;
+    height: 296px;
+    left: 148px;
+    top: 158px;
   }
 
-  &__description{
+  &__text {
+    height: 211px;
+  }
+
+  &__button {
+    width: 208px;
+    height: 47px;
+    margin-top: 40px;
+
+    background: #FF6464;
+    border-radius: 2px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+
+    width: 440px;
+    height: 105px;
+  }
+
+  &__subtitle {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+
+    width: 497px;
+    height: 66px;
+    margin-top: 40px
   }
 
-  &__download{
+  &__download {
     font-weight: 500;
     font-size: 20px;
     line-height: 29px;
 
+    width: 161px;
+    height: 27px;
+    position: relative;
+    top: 9px;
+    left: 20px;
+
     color: #FFFFFF;
-    background: #FF6464;
-    border-radius: 2px;
   }
+
+  background: url("../images/Ellipse 1.png") no-repeat 760px, 140px;
 }

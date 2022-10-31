@@ -11,61 +11,68 @@
 </head>
 
 <body>
-    <header>
-        <ul>
-            <li>
-                <a href="#">Works</a>
-            </li>
-            <li>
-                <a href="#">Blog</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-        </ul>
+    <header class="header">
+        <div class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#">Works</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#">Blog</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
     </header>
     <main>
         <section class="about-me">
-            <div>
-                <h1 class="about-me__greetings">Hi, I am John, Creative Technologist</h1>
-                <p class="about-me__description">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                    Velit officia consequat duis enim velit mollit.
-                    Exercitation veniam consequat sunt nostrud amet.
-                </p>
-                <div class="about-me__download">
-                    <a href="#">Download Resume</a>
+            <div class="about-me__container">
+                <div class="about-me__text">
+                    <h1 class="about-me__title">Hi, I am John, Creative Technologist</h1>
+                    <p class="about-me__subtitle">
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                        Velit officia consequat duis enim velit mollit.
+                        Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                </div>
+                <div class="about-me__button">
+                    <a class="about-me__download" href="#">Download Resume</a>
                 </div>
             </div>
-            <div></div>
         </section>
-        <section>
-            <h2>Recent posts</h2>
-            <a href="#">View all</a>
-            <ul>
-                <li>
-                    <div>
-                        <h3>Making a design system from scratch</h3>
-                        <p>Design, Pattern</p>
-                        <p>
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                            Velit officia consequat duis enim velit mollit.
-                            Exercitation veniam consequat sunt nostrud amet.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <h3>Creating pixel perfect icons in Figma</h3>
-                        <p>Figma, Icon Design</p>
-                        <p>
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                            Velit officia consequat duis enim velit mollit.
-                            Exercitation veniam consequat sunt nostrud amet.
-                        </p>
-                    </div>
-                </li>
-            </ul>
+        <section class="posts">
+            <div class="posts__head">
+                <div class="posts__title">
+                    <h2 class="posts__title__text">Recent posts</h2>
+                </div>
+                <div class="posts__view">
+                    <a class="posts__view__text" href="#">View all</a>
+                </div>
+            </div>
+            <div>
+                <ul class="posts__list">
+                    <li class="posts__link">
+                            <h3 class="posts__link__title">Making a design system from scratch</h3>
+                            <p class="posts__link__subtitle">Design, Pattern</p>
+                            <p class="posts__link__description">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                Velit officia consequat duis enim velit mollit.
+                                Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                    </li>
+                    <li class="posts__link">
+                            <h3 class="posts__link__title">Creating pixel perfect icons in Figma</h3>
+                            <p class="posts__link__subtitle">Figma, Icon Design</p>
+                            <p class="posts__link__description">
+                                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                                Velit officia consequat duis enim velit mollit.
+                                Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section>
             <h2>Featured works</h2>
