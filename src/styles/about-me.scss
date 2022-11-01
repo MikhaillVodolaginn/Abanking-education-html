@@ -1,5 +1,6 @@
 .about-me {
   height: 525px;
+  background: url("../images/Photo.jpg") no-repeat 760px, 140px;
 
   &__container {
     position: relative;
@@ -20,6 +21,18 @@
 
     background: #FF6464;
     border-radius: 2px;
+
+    &__text {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 29px;
+
+      position: relative;
+      top: 9px;
+      left: 20px;
+
+      color: #FFFFFF;
+    }
   }
 
   &__title {
@@ -40,18 +53,4 @@
     height: 66px;
     margin-top: 40px
   }
-
-  &__download {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 29px;
-
-    position: relative;
-    top: 9px;
-    left: 20px;
-
-    color: #FFFFFF;
-  }
-
-  background: url("../images/photo.png") no-repeat 760px, 140px;
 }

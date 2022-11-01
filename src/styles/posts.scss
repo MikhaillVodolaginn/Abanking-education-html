@@ -21,7 +21,7 @@
     }
   }
 
-  &__view {
+  &__link {
     width: 208px;
     height: 20px;
 
@@ -40,13 +40,13 @@
   }
 
   &__list {
-    display: flex;
+    display: inline-flex;
     gap: 12px;
     position: relative;
     left: 148px;
   }
 
-  &__link {
+  &__post {
     width: 418px;
     height: 295px;
 
