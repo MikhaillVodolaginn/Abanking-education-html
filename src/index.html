@@ -12,17 +12,19 @@
 
 <body>
     <header class="navigation">
-        <ul class="navigation__list">
-            <li class="navigation__item">
-                <a class="navigation__link" href="#">Works</a>
-            </li>
-            <li class="navigation__item">
-                <a class="navigation__link" href="#">Blog</a>
-            </li>
-            <li class="navigation__item">
-                <a class="navigation__link" href="#">Contact</a>
-            </li>
-        </ul>
+        <nav>
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#works">Works</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#blog">Blog</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section class="about-me">
@@ -36,13 +38,13 @@
                     </p>
                 </div>
                 <a href="#">
-                    <div class="about-me__button">
-                        <p class="about-me__button__text">Download Resume</p>
-                    </div>
+                    <button class="about-me__button">
+                        Download Resume
+                    </button>
                 </a>
             </div>
         </section>
-        <section class="posts">
+        <section id="blog" class="posts">
             <div class="posts__head">
                 <div class="posts__title">
                     <h2 class="posts__title__text">Recent posts</h2>
@@ -74,7 +76,7 @@
                 </li>
             </ul>
         </section>
-        <section class="works">
+        <section id="works" class="works">
             <div>
                 <h2 class="works__head">Featured works</h2>
             </div>
@@ -136,7 +138,7 @@
             </ul>
         </section>
     </main>
-    <footer class="footer">
+    <footer id="contact" class="footer">
         <div>
             <ul class="footer__list">
                 <li class="footer__link">
@@ -171,7 +173,7 @@
                 </li>
             </ul>
         </div>
-        <p class="footer__text">Copyright ©2020 All rights reserved </p>
+        <p class="footer__copyright">Copyright ©2020 All rights reserved </p>
     </footer>
 </body>
 
